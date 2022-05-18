@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+			
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/video/index"
+			// "style": {
+			// 	"navigationBarTitleText": "uni-app"
+			// }
+		},
+		{
+			"path": "pages/user/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/user/userCenter",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		},
+		{
+			"path": "pages/search/searchList"
+			// "style": {
+			// 	"app-plus":{"titleNView":false}
+			// }
+		},
+		{
+			"path": "pages/musicPlayer/musicPlayer",
+			"style":{
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/songlist/songlist",
+			"style": {
+				"app-plus":{"titleNView":false}
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus":{
+		"scrollIndicator":"none" //全局 在APP页面都不显示滚动条
+		}
+	},
+	"tabBar":{
+		"color":"#000000",
+		"selectedColor":"#D9220C",
+		"list":[
+			{
+				"pagePath":"pages/home/index",
+				"text":"发现",
+				"iconPath":"static/Icon/home_dis.png",
+				"selectedIconPath":"static/Icon/home.png"
+			},
+			{
+				"pagePath":"pages/search/index",
+				"text":"搜索",
+				"iconPath":"static/Icon/search_dis.png",
+				"selectedIconPath":"static/Icon/search.png"
+			},
+			{
+				"pagePath":"pages/video/index",
+				"text":"云村",
+				"iconPath":"static/Icon/net_dis.png",
+				"selectedIconPath":"static/Icon/net.png"
+			},
+			{
+				"pagePath":"pages/user/index",
+				"text":"我的",
+				"iconPath":"static/Icon/user_dis.png",
+				"selectedIconPath":"static/Icon/user.png"
+			}
+		]
+	}
+}
